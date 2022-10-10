@@ -1,0 +1,76 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Roboto', sans-serif;
+}
+nav{
+  background-color: rgb(136, 136, 155);
+  color: wheat;
+  padding: 20px;
+  text-align: center;
+}
+.container{
+  background-color: beige;
+  margin: auto;
+  width: 70%;
+  min-height: 100vh;
+  padding: 4vmax 8vmax;
+  box-sizing: border-box;
+}
+
+.container > form{
+  display: flex;
+  flex-direction: column;
+}
+.container > h1{
+  text-align: center;
+}
+
+.container > form > input,textarea,button{
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 214);
+  border-radius: 5px;
+}
+button{
+  border: none;
+  cursor: pointer;
+  background-color: rgb(10, 10, 10);
+  color: white;
+
+}
+
+
+.task{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+
+}
+
+.task span {
+  color: black;
+}
+.task > div{
+  width:100%;
+}
+.task button{
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  font-size: 1.6rem;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task button:hover{
+  background-color: red;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap');
